@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #ccc;
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border-radius: 25px;
+}
+
+.nav,
+ul li {
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.acolor {
+    color: #cccccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img1 {
+    width: 200px;
+    height: 220px;
+    border-radius: 25px;
+}
+
+.img2 {
+    width: 100%;
+    height: 220px;
+    border-radius: 25px;
+}
+
+.description {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+}
+
+.name {
+    background-color: aquamarine;
+    text-align: center;
+    color: darkblue;
+    border: 1px solid #ccc;
+}
+
+.introduction {
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    text-align: justify;
+}
+
+.top-contaier {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+}
+
+.aside {
+    border: 2px solid lightslategray;
+    padding: 10px;
+    text-align: center;
+}
+.skill{
+    font-size: 25px;
+}
+
+.main {
+    border: 2px solid lightslategray;
+    padding: 10px;
+}
+
+.education {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+}
+
+.Experience {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+}
+
+.training {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: lightseagreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px;
+    grid-column-gap: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width:600px) {
+    .description {
+        grid-template-columns: 1fr;
+    }
+
+    .top-contaier {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+}
